@@ -1,0 +1,91 @@
+h1, li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F8EDE3;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+}
+
+.Dashboard-wrapper {
+  display: flex;
+  gap: 150px;
+}
+
+.dashboard-sidebar-wrapper { 
+  display: flex;
+  justify-content: center;
+  background-color: #DFD3C3;
+  border-radius: 15px;
+  margin: 30px 35px;
+  height: 95vh;
+  width: 312px;
+  overflow-y: auto;
+}
+
+.dashboard-sidebar {
+  margin-top: 50px;
+}
+
+.dashboard-sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.dashboard-sidebar li {
+  background-color: #D0B8A8;
+  padding: 30px 90px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: azure;
+}
+
+.dashboard-sidebar li a {
+  color: azure; /* Mengatur warna teks tautan */
+}
+
+.Dashboard-home {
+  display: flex;
+  flex-direction: column; 
+  margin-top: 70px;
+  color: black;
+  font-size: 15px;
+  gap: 50px;
+}
+
+.dashboard-title {
+  width: 50vw;
+  height: 10vh;
+  background-color: #DFD3C3;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-text {
+  background-color: #DFD3C3;
+  width: 50vw;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit; /* Mengambil warna dari elemen induknya */
+}
